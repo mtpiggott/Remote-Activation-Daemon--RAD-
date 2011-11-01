@@ -5,16 +5,12 @@
     Author:      Michael Piggott
     Date:        10/31/2011
 '''
-def recieveMessage():
-    message = ""
-
-    return message
-
+import messageInterface
 
 def main():
     while 1 == 1:
         #do stuff
-        message = recieveMessage()
+        message = messageInterface.recieveMessage()
 
 if __name__ == '__main__':
     main()
