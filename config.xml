@@ -1,0 +1,18 @@
+<!-This file contains presets along with the hostname of the server->
+<configuration>
+  <serverConfig>
+  </serverConfig>
+
+  <presets>
+    <preset shortcut="p">
+      <process>pioneers</process>
+      <command>stuff I dont know</command>
+      <flags>i don't know this either</flags>
+    </preset>
+    <preset shortcut="ssh">
+      <process>sshd</process>
+      <command>start</command>
+      <flags>i don't know</flags>
+    </preset>
+  </presets>
+</configuration>
