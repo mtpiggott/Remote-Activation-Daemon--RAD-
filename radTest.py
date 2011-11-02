@@ -9,18 +9,13 @@
 import unittest
 import rad
 
-class testRecieveMessage(unittest.TestCase):
+class testMain(unittest.TestCase):
 
     def setUp(self):
         pass
 
     #Test Casses for RecieveMessage
-    def testPioneers(self):
-        testMessage = "pioneers start"
-
-        message = rad.recieveMessage()
-
-        self.assertEqual(message, testMessage)
+    def test
 
 
 if __name__ == '__main__':
